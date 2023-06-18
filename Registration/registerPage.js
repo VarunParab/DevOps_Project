@@ -5,8 +5,8 @@ const { DynamoDBClient, PutItemCommand } = require('@aws-sdk/client-dynamodb');
 const dynamodbClient = new DynamoDBClient({
     region: 'ap-south-1',
     credentials: {
-      accessKeyId: 'AKIAX3GW77ZAVZ3S64W2',
-      secretAccessKey: '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'
+      accessKeyId: '-',
+      secretAccessKey: '-'
     }
   }); 
 const app = express();
