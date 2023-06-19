@@ -5,7 +5,7 @@
   "main": "getEmail.js",
   "sendEmail": "sendEmail.js",
   "scripts": {
-    "start": "nodemon getEmail.js"
+    "start": "concurrently \"nodemon getEmail.js\" \"nodemon sendEmail.js\""
   },
   "keywords": [],
   "author": "",
